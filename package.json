@@ -1,6 +1,9 @@
 {
   "name": "la-belle-plante-cda-aulnay-g4",
   "version": "0.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "ng": "ng",
     "dev": "ng serve",
