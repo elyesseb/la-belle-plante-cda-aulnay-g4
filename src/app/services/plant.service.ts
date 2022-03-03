@@ -72,7 +72,7 @@ export class PlantService {
   }
 
   getListProducts(): Observable<any[]> {
-    return this.http.get<any[]>(`${this.baseUrl}list_products`);
+    return this.http.get<any[]>(`${this.baseUrl}/list_products`);
   }
 
   getListProductsChaud(): void {
